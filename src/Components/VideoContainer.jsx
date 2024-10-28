@@ -19,7 +19,6 @@ const VideoContainer = ({ state, play, runVideo }) => {
             </aside>
         </div>
     );
-
 }
 
 export default VideoContainer
