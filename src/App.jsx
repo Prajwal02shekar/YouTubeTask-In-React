@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import VIDEO from './Video.json';
 import VideoContainer from './Components/VideoContainer';
 import './App.css';
-import PClogo from './assets/PClogo.jpg';
-import logo from './assets/logo2.jpg';
+// import PClogo from './assets/PClogo.jpg';
+// import logo from './assets/logo2.jpg';
+import Header from './Components/Header';
 
 
 const App = () => {
@@ -18,9 +19,8 @@ const App = () => {
     <div>
       <div className="header">
         <div className="header-logo">
-          <img src={logo} alt="PC Logo" />
+          <Header/>
         </div>
-        <div className="header-title">PC Audio & Videos</div>
       </div>
       <VideoContainer state={state} play={play} runVideo={runVideo} />
     </div>

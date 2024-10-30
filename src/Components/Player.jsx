@@ -1,14 +1,15 @@
-import React from 'react'
+import React from 'react';
 
 const Player = ({ videoSrc }) => {
-  console.log(videoSrc, "Player")
   return (
     <div>
-      <video src={videoSrc} controls autoPlay></video>
+      <video src={videoSrc} controls autoPlay />
     </div>
   );
 };
-export default Player
+
+export default Player;
+
 
 //?----------------------------------------------------
 
